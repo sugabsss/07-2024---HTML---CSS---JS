@@ -1,1 +1,96 @@
-*{margin:0;padding:0;box-sizing:border-box}body{background-color:#f5f5f5;font-family:'Roboto',sans-serif;color:#333;display:flex;justify-content:center;align-items:center;min-height:100vh}form{width:70%;max-width:600px;padding:20px;background-color:#fff;border-radius:20px;box-shadow:0 0 10px rgba(0,0,0,0.1);margin-left:10%}.campo{font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}.sabor{font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}.kilos{font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}.Formatos{margin-bottom:20px;font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}.Formatos div{display:flex;align-items:center;margin-bottom:10px;font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}.Formatos input[type="checkbox"]{margin-right:100px}.observacoes{font-family:'Roboto',sans-serif;font-size:1.1em;color:#630;margin-top:10px}fieldset{border:0}input,select,textarea{width:100%;border-radius:10px;padding:.5em;margin:.5em 0;border:1px solid #ccc;box-sizing:border-box;font-size:1em}input:focus,select:focus,textarea:focus{outline:none;border-color:#ffb6c1;box-shadow:0 0 5px #ffb6c1}button{font-family:'Montserrat',sans-serif;font-size:1em;background-color:#630;color:#fff;padding:.5em 1em;border:none;border-radius:5px;cursor:pointer;transition:background-color .3s ease}button:hover{background-color:#ffb6c1}.check{display:flex}.logo{position:absolute;top:10px;left:10px;width:200px;height:auto}@media screen and (max-width: 768px){#titulo{margin-left:10%}#subtitulo{margin-left:15%}}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#titulo{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        margin-left: 7%;
+    }
+#subtitulo{
+        font-family:sans-serif;
+        color: rgb(11, 226, 101);
+        margin-left: 2%;
+        font-size: 1.2em;
+
+    }
+#sub2{
+        
+        font-size: 1.1em;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+     
+    }
+ fieldset{
+        border: 0;
+    }
+ body{
+        background-color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        margin-left: 36%;
+        color: rgb(0, 250, 0);
+        margin-top: 2%;
+        justify-content: center;
+        
+    }
+ input, select,textarea,button{
+            border-radius: 5px;
+        }
+.campo {
+            margin-bottom: 1em;
+
+        }
+.campo label{
+            margin-bottom: 0.2cm;
+            color: rgb(0, 248, 33);
+            display: block;
+        }
+ fieldset.campo .grupo{
+            float: left;
+            margin-right: 1em;
+        }
+.campo input[type="text"], .campo input[type="email"] .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 2px 2px 2px rgb(238, 238, 238);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus .campo textarea:focus{
+    color: #e0e0f8;
+}
+.botao{
+    font-size: 1.2em;
+    background-color:darkgreen;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+    .botao:hover{
+        background-color: #000000;
+        box-shadow: 2px 2px 2px rgb(255, 255, 255);
+        text-shadow: none;
+    }
+.check
+{
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    width: 180px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}

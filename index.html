@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonsterSuple</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="campo">    
+        <h1 id="titulo">Você é um 🐭 de academia?</h1>
+        <img src="Monster Suple (1).png" alt="" class="logo">
+        <p id="subtitulo">Pesquisa para encontrar <span id="sub2">os freeks de academia</span></p>
+        <br>        
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">   
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label>Já tomou o famoso "DANONE" 💉?</label>
+                <label>
+                    <input type="radio" name="suplemento" value="1"> Não, nunca utilizei.
+                </label>
+                <label>
+                    <input type="radio" name="suplemento" value="2"> Já utilizei, mas não uso mais.
+                </label>
+                <label>
+                    <input type="radio" name="suplemento" value="3"> Faço uso recorrente.
+                </label>
+            </div>
+            <div class="campo">
+                <label for="anos_treino"><strong>Anos de treino</strong></label>
+                <select id="anos_treino" name="anos_treino">
+                    <option selected disabled value="selecione"></option>
+                    <option>menos de 1 ano</option> 
+                    <option>1 a 2 anos de treino</option> 
+                    <option>2+ anos de treino</option> 
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id ="check">
+                    <label><strong>Caso tenha um dos casos apresentados:</strong></label>
+                    <label>
+                        <input type="checkbox" id="pre_diabete" name="problemas_saude" value="1"> Pré-diabete/Diabete
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="doenca_cardiaca" name="problemas_saude" value="2"> Doença cardíaca
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="problema_visao" name="problemas_saude" value="3"> Problema na visão
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="sou_esterio" name="problemas_saude" value="4"> Sou estéril
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="problema_coluna" name="problemas_saude" value="5"> Problema na coluna
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="nenhum_problema" name="problemas_saude" value="6"> Nenhum problema de saúde
+                    </label>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte me pouco sobre porque entrou na academia 😊</strong></label>
+                <textarea rows="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+            </div>
+            <div class="campo">
+                <button type="submit">Concluído</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
