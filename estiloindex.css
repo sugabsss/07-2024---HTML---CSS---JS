@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#titulo{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        margin-left: 7%;
+    }
+#subtitulo{
+        font-family:sans-serif;
+        color: rgb(11, 226, 101);
+        margin-left: 2%;
+        font-size: 1.2em;
+
+    }
+#sub2{
+        
+        font-size: 1.1em;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+     
+    }
+ fieldset{
+        border: 0;
+    }
+ body{
+        background-color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        margin-left: 36%;
+        color: rgb(0, 250, 0);
+        margin-top: 2%;
+        justify-content: center;
+        
+    }
+ input, select,textarea,button{
+            border-radius: 5px;
+        }
+.campo {
+            margin-bottom: 1em;
+
+        }
+.campo label{
+            margin-bottom: 0.2cm;
+            color: rgb(0, 248, 33);
+            display: block;
+        }
+ fieldset.campo .grupo{
+            float: left;
+            margin-right: 1em;
+        }
+.campo input[type="text"], .campo input[type="email"] .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 2px 2px 2px rgb(238, 238, 238);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus .campo textarea:focus{
+    color: #e0e0f8;
+}
+.botao{
+    font-size: 1.2em;
+    background-color:darkgreen;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+    .botao:hover{
+        background-color: #000000;
+        box-shadow: 2px 2px 2px rgb(255, 255, 255);
+        text-shadow: none;
+    }
+.check
+{
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    width: 180px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
